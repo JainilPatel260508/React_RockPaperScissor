@@ -67,12 +67,12 @@ export default function App() {
     }
 
     setHistory((prev) => [
-      ...prev,
       {
         user: userEmoji,
         computer: compEmoji,
         result: roundResult,
       },
+      ...prev,
     ]);
   };
 
