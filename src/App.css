@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.icons {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.buttons button {
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+}
