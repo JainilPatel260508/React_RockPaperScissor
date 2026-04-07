@@ -129,9 +129,9 @@ export default function App() {
           <h3>History</h3>
           <ul>
             {history.map((item, index) => (
-              <li key={index}>
+              <p style={{ color: item.result === "You Win" ? "green" : item.result === "Computer Wins" ? "red" : "black" }} key={index}>
                 {item.computer} vs {item.user} → {item.result}
-              </li>
+              </p>
             ))}
           </ul>
         </div>
